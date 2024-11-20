@@ -1,2 +1,2 @@
 # Meus-Projetos
- Projetos criados, seja pequeno ou grande
+ Projetos criados, seja atividades, exercicios pequenos ou grandes
