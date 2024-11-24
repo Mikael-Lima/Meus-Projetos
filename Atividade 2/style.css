@@ -1,0 +1,17 @@
+body{
+    background: #ff000096;
+}
+
+form.form{
+    background-color: rgb(28, 84, 158);
+}
+div.container{
+   background-color: white;
+   text-align: center;
+   width: 400px;
+   height: 400px;
+   box-shadow: 1px 1px 10px #ff000063;
+   border-radius: 10px;
+   position: relative;
+   left: 40%;
+}
