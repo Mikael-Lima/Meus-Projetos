@@ -2,6 +2,7 @@ body{
     margin: 0;
     height: 100%;
     align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .left, .right{
 height: 100vh;
@@ -10,10 +11,12 @@ float: left;
 }
 .left{
     background-color: rgb(25, 125, 255);
+    width: 60%;
     
 }
 .right{
     background-color: rgb(255, 255, 255);
+    width: 40%;
 }
 .right form{
     
@@ -21,22 +24,51 @@ float: left;
    margin: 0;
    position: absolute;
    top: 50%;
-   left: 76%;
+   left: 80%;
    transform: translate(-50%, -50%);
    
 }
 .right form h1{
     margin-bottom: 0px;
-    height: 5vh;
+    height: 50px;
 }
 
 .right form input[type="text"], 
             input[type="password"]{
-        margin: 20px;
-        padding: 10px;
+        margin: 18px;
+        padding: 9px;
         width: 400px;
-        border-end-end-radius: 70px;
-        border-start-end-radius: 70px;
+        border-radius: 9px;
+        border: 1px solid rgba(60, 62, 65, 0.459);
+}
+.right form label[ for ="login"]{
+    /* float: left; */
+    position: relative;
+    right: 190px;
+    top: 15px;
+      
+}
+.right form label[ for ="password"]{
+    /* float: left; */
+    position: relative;
+    right: 187px;
+    top: 15px;
+      
+}
+
+.right form button{
+    padding: 8px 170px; 
+    border-radius: 10px;
+    cursor: pointer;
+    border: none;
+    background-color: rgb(25, 125, 255);
+    color: aliceblue;
+}
+
+p{
+    position: relative;
+    font-size: 14px;
+    left: 100px;
 }
 
 
