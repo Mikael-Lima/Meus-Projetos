@@ -69,6 +69,11 @@ p{
     position: relative;
     font-size: 14px;
     left: 100px;
+
+}
+p a{
+    text-decoration: none;
+    color: rgb(25, 125, 255);
 }
 
 
