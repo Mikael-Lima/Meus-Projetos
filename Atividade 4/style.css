@@ -10,8 +10,44 @@ body{
     position: absolute;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-color: rgb(255, 255, 255);
-    padding: 30px 160px ;
+    background-color: rgb(238, 237, 237);
+    padding: 30px 70px ;
     border-radius: 10px;
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+}
+
+button[for="start"],
+button[for="pause"],
+button[for="stop"] {
+    width: 90px; /* Largura fixa para todos os botões */
+    height: 35px; /* Altura fixa para todos os botões */
+    color: aliceblue;
+    border: none;
+    padding: 10px 0px; /* Espaçamento interno consistente */
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+}
+
+button[for="start"]{
+    background-color: rgb(6, 204, 33);
+}
+
+button[for="pause"] { 
+    background-color: rgb(122, 122, 122); 
+}
+
+button[for="stop"] { 
+    background-color: rgb(179, 12, 12);
+}
+
+p{
+   font-size: 14px;
+   text-align: center;
+   color: rgb(255, 255, 255); 
+   position: relative;
+   top: 400px;
+}
+p i{
+    color: rgb(175, 174, 174);
 }
