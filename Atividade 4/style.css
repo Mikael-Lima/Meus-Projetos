@@ -41,13 +41,22 @@ button[for="stop"] {
     background-color: rgb(179, 12, 12);
 }
 
-p{
+span{
    font-size: 14px;
-   text-align: center;
    color: rgb(255, 255, 255); 
-   position: relative;
+   position: absolute;
    top: 400px;
+   left: 50%;
+   transform: translate(-50%, -50%);
 }
-p i{
+span a{
+    text-decoration: none;
     color: rgb(175, 174, 174);
+}
+p{
+    text-align: center;
+    position: relative;
+    top: 400px;
+    color: #e0e0e0;;
+   
 }
