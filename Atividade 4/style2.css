@@ -45,6 +45,7 @@ body{
     font-weight: bold;
     /* transition:  transform 0.9s ease-in-out; */
     color: #fff;
+    border-radius: 0.7rem;
 }
 
 /* .timer button:hover{

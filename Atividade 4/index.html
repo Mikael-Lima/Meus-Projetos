@@ -4,18 +4,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
     <title>Projeto 4 - Cronometro</title>
 </head>
 <body>
     <div class="container">
+        <h1>Cronômetro.js</h1>
         <div class="timer">
-            <h1>00:00:00</h1>
-            <button for="start">Start</button>
-            <button for ="pause">Pause</button>
-            <button for ="stop">Stop</button>
+            <div class="time" id="minutes">00</div>
+            <div class="separador">:</div>
+            <div class="time" id="seconds">00</div>
+            <div class="separador">:</div>
+            <div class="time"id="mileseconds">00</div>
+
         </div>
+        <div class="buttons">
+            <button for="start">Iniciar</button>
+            <button for ="pause">Pausar</button>
+            <button for ="">Continuar</button>
+            <button>Resetar</button>
+        </div>
+
+        <span> Desenvolvido por <a href="https://github.com/Mikael-Lima/Meus-Projetos/tree/main/Atividade%204">Mikael Lima</a> <br>2024</span>
     </div>
-    <span> Desenvolvido por <a href="https://github.com/Mikael-Lima/Meus-Projetos/tree/main/Atividade%204">Mikael Lima</a></span>
-    <p>2024</p>
+    
 </body>
 </html>
