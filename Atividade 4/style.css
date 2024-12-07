@@ -39,7 +39,7 @@
 }
 
 
-#milleseconds{
+#milliseconds{
     font-size: 30px;
     color: #525763;
 }
@@ -50,6 +50,7 @@
 
 .btn{
     padding: 10px 20px;
+    font-size: 18px; 
     border-radius: 30px;
     font-weight: bold;
     cursor: pointer;
