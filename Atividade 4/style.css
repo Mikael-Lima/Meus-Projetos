@@ -33,3 +33,44 @@
     min-width: 90px;	
 }
 
+.separador{
+    padding: 0 10px;
+    color: #525763;
+}
+
+
+#milleseconds{
+    font-size: 30px;
+    color: #525763;
+}
+.buttons{
+    display: flex;
+    gap: 1rem;
+}
+
+.btn{
+    padding: 10px 20px;
+    border-radius: 30px;
+    font-weight: bold;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn:hover{
+    transform: scale(1.1);
+}
+
+#start{
+    background-color: #175fff;
+    color: #fff;
+}
+
+#pause, 
+#continue{
+    display: none;
+}
+
+
+
+
